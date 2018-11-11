@@ -1,0 +1,7 @@
+classes
+targe
+.scannerwork
+*.class
+*.xls
+workspace.xml
+.idea

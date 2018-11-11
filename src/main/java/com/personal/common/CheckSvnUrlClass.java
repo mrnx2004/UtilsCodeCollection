@@ -49,7 +49,7 @@ public class CheckSvnUrlClass {
      * @throws SVNException 失败抛出异常
      */
     private boolean checkSvnUrlImplement(String svnUrl, String svnUser, String svnPassword) throws SVNException {
-        DAVRepositoryFactory.setup(); 
+        DAVRepositoryFactory.setup();
         SVNRepository repository = SVNRepositoryFactory.create(
                 SVNURL.parseURIEncoded(svnUrl));
         ISVNAuthenticationManager auth = SVNWCUtil.createDefaultAuthenticationManager(

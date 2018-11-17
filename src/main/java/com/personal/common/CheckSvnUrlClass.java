@@ -13,7 +13,7 @@ import org.tmatesoft.svn.core.wc.SVNWCUtil;
  */
 public class CheckSvnUrlClass {
     /**
-     * 这一段代码中可以学习到通过捕捉错误代码，可以输出友好的错误信息给用户
+     * 这一段代码中可以学习到通过捕捉Exception的错误代码，输出友好的错误信息给用户
      *
      * @param svnUrl
      * @param svnUser
